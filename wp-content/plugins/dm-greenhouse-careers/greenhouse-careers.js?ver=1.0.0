@@ -1,0 +1,223 @@
+(function () {
+  'use strict';
+
+  if (window.DMGreenhouseCareers) return;
+
+  const BOARD = 'https://job-boards.greenhouse.io/martellgrowthsolutions';
+  const FEED = 'https://boards-api.greenhouse.io/v1/boards/martellgrowthsolutions/jobs';
+  const REFRESH_MS = 5 * 60 * 1000;
+  const TIMEOUT_MS = 10000;
+  const ROOT_SELECTOR = '[data-elementor-type="wp-page"][data-elementor-id="12341"]';
+  const LEGACY_IDS = ['f66161b', '30aa2bc', '217d38f'];
+  let refresh = () => Promise.resolve();
+  window.DMGreenhouseCareers = { refresh: () => refresh(), state: 'starting' };
+
+  function normalize(payload) {
+    if (!payload || !Array.isArray(payload.jobs) || !payload.meta ||
+        !Number.isInteger(payload.meta.total) || payload.meta.total !== payload.jobs.length) {
+      throw new Error('Incomplete Greenhouse response');
+    }
+    const seen = new Set();
+    return payload.jobs.map(job => {
+      if (!job || !Number.isSafeInteger(job.id) || job.id <= 0 || seen.has(job.id) ||
+          typeof job.title !== 'string' || !job.title.trim() || job.title.length > 500 ||
+          typeof job.absolute_url !== 'string' ||
+          !(job.internal_job_id === null || Number.isSafeInteger(job.internal_job_id))) {
+        throw new Error('Invalid Greenhouse job');
+      }
+      const url = new URL(job.absolute_url);
+      if (url.protocol !== 'https:' || url.username || url.password || url.port ||
+          !['job-boards.greenhouse.io', 'boards.greenhouse.io'].includes(url.hostname) ||
+          url.pathname.replace(/\/$/, '') !== '/martellgrowthsolutions/jobs/' + job.id) {
+        throw new Error('Unexpected application URL');
+      }
+      seen.add(job.id);
+      return {
+        id: String(job.id),
+        title: job.title.trim(),
+        location: typeof job.location?.name === 'string' ? job.location.name.trim() : '',
+        url: url.href,
+        // This board's existing Talent Pool is a regular job record, not a prospect post.
+        prospect: job.internal_job_id === null || job.id === 4802357008
+      };
+    }).sort((a, b) => Number(a.prospect) - Number(b.prospect) ||
+      a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }) || a.id.localeCompare(b.id));
+  }
+
+  function stripElementorIdentity(node) {
+    // Keep the existing CSS classes, but avoid duplicate DOM IDs and editor identities.
+    for (const element of [node, ...node.querySelectorAll('*')]) {
+      element.removeAttribute('id');
+      element.removeAttribute('data-id');
+      element.removeAttribute('data-element_type');
+      element.removeAttribute('data-e-type');
+      element.removeAttribute('data-widget_type');
+      element.removeAttribute('data-settings');
+    }
+    return node;
+  }
+
+  function setJobContent(card, job) {
+    const title = card.querySelector('.elementor-icon-box-title a');
+    const description = card.querySelector('.elementor-icon-box-description');
+    const button = card.querySelector('a.elementor-button');
+    if (!title || !description || !button) throw new Error('Job template has changed');
+    card.dataset.greenhouseJobId = job.id;
+    card.dataset.greenhouseProspect = String(job.prospect);
+    title.textContent = job.title;
+    description.textContent = job.prospect
+      ? "Don't see the perfect fit? Send in an application here to join our talent pool."
+      : job.location;
+    for (const anchor of card.querySelectorAll('a')) {
+      anchor.href = job.url;
+      if (anchor.hasAttribute('aria-label')) anchor.setAttribute('aria-label', job.title);
+    }
+    button.setAttribute('aria-label', 'Apply for ' + job.title);
+    return card;
+  }
+
+  function start() {
+    const page = document.querySelector(ROOT_SELECTOR);
+    if (!page || document.body.classList.contains('elementor-editor-active')) {
+      window.DMGreenhouseCareers.state = 'out-of-scope';
+      return;
+    }
+    const originals = LEGACY_IDS.map(id => page.querySelector('[data-id="' + id + '"]'));
+    const template = page.querySelector('[data-id="2740d50"]');
+    const heading = page.querySelector('#positions');
+    const boardLink = () => {
+      const link = document.createElement('a');
+      link.href = BOARD;
+      link.textContent = 'View all current openings on Greenhouse';
+      return link;
+    };
+    // If a later redesign changes the template, leave it intact and expose the source board.
+    if (originals.some(node => !node) || !template ||
+        originals.some(node => node.parentElement !== originals[0].parentElement)) {
+      window.DMGreenhouseCareers.state = 'template-mismatch';
+      if (heading) {
+        const fallback = document.createElement('p');
+        fallback.append(boardLink());
+        heading.after(fallback);
+      }
+      console.warn('Greenhouse careers: the Elementor job-section structure has changed.');
+      return;
+    }
+
+    const cardTemplate = stripElementorIdentity(template.cloneNode(true));
+    const prospectTemplate = stripElementorIdentity(originals[2].cloneNode(true));
+    const namedGroupTemplate = stripElementorIdentity(originals[0].cloneNode(false));
+    // Verify the existing markup before hiding any original listings.
+    try {
+      const dummy = { id: '0', title: '', url: BOARD, location: '', prospect: false };
+      setJobContent(cardTemplate.cloneNode(true), dummy);
+      setJobContent(prospectTemplate.cloneNode(true), { ...dummy, prospect: true });
+    } catch (error) {
+      window.DMGreenhouseCareers.state = 'template-mismatch';
+      return;
+    }
+
+    const root = document.createElement('div');
+    root.id = 'dm-greenhouse-careers';
+    root.style.cssText = 'width:100%;min-width:0;max-width:100%;';
+    root.setAttribute('aria-label', 'Current job openings');
+    root.setAttribute('role', 'region');
+    const status = document.createElement('p');
+    status.className = 'dm-gh-status';
+    status.setAttribute('role', 'status');
+    const list = document.createElement('div');
+    list.className = 'dm-gh-list';
+    root.append(status, list);
+    originals[0].before(root);
+
+    const style = document.createElement('style');
+    style.id = 'dm-greenhouse-careers-styles';
+    style.textContent = `
+      #dm-greenhouse-careers .dm-gh-status { color:var(--dm-muted,#45616f); font-size:15px; line-height:1.6; margin:10px 0 20px; }
+      #dm-greenhouse-careers .dm-gh-status a { color:#00668a; text-decoration:underline; }
+      #dm-greenhouse-careers [data-greenhouse-job-id] { min-width:0 !important; }
+      #dm-greenhouse-careers .elementor-icon-box-title { overflow-wrap:anywhere; }
+      #dm-greenhouse-careers a.elementor-button { min-height:44px !important; display:inline-flex !important; align-items:center; justify-content:center; }
+      #dm-greenhouse-careers a:focus-visible { outline:2px solid #22c8ff; outline-offset:5px; }
+      #dm-greenhouse-careers .dm-gh-status[data-state="current"] {
+        position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden;
+        clip:rect(0,0,0,0); white-space:nowrap; border:0;
+      }
+    `;
+    root.prepend(style);
+    // Hide only the three verified manual groups. The featured promotion stays in place.
+    for (const node of originals) {
+      node.setAttribute('data-dm-gh-legacy', 'true');
+      node.style.setProperty('display', 'none', 'important');
+    }
+
+    let busy = false;
+    let lastAttempt = 0;
+    let hasCurrentData = false;
+    let signature = '';
+    status.textContent = 'Loading current openings…';
+
+    refresh = async function () {
+      if (busy) return;
+      busy = true;
+      lastAttempt = Date.now();
+      window.DMGreenhouseCareers.state = 'loading';
+      const controller = new AbortController();
+      const timeout = window.setTimeout(() => controller.abort(), TIMEOUT_MS);
+      try {
+        const response = await fetch(FEED, {
+          credentials: 'omit', cache: 'no-store', mode: 'cors', signal: controller.signal
+        });
+        if (!response.ok) throw new Error('Greenhouse returned ' + response.status);
+        const jobs = normalize(await response.json());
+        const nextSignature = JSON.stringify(jobs);
+        if (signature !== nextSignature) {
+          const named = namedGroupTemplate.cloneNode(false);
+          const fragment = document.createDocumentFragment();
+          for (const job of jobs.filter(job => !job.prospect)) {
+            named.append(setJobContent(cardTemplate.cloneNode(true), job));
+          }
+          if (named.childElementCount) fragment.append(named);
+          for (const job of jobs.filter(job => job.prospect)) {
+            fragment.append(setJobContent(prospectTemplate.cloneNode(true), job));
+          }
+          // Update atomically only after every incoming record has passed validation.
+          list.replaceChildren(fragment);
+          signature = nextSignature;
+        }
+        for (const node of originals) node.remove();
+        hasCurrentData = true;
+        window.DMGreenhouseCareers.state = 'current';
+        root.dataset.fetchedAt = new Date().toISOString();
+        root.dataset.jobCount = String(jobs.length);
+        status.dataset.state = jobs.length ? 'current' : 'empty';
+        status.replaceChildren(document.createTextNode(jobs.length
+          ? jobs.length + ' current openings loaded.'
+          : 'There are no openings published right now. '));
+        if (!jobs.length) status.append(boardLink());
+        root.dispatchEvent(new CustomEvent('dm:careers:updated', { bubbles: true, detail: { count: jobs.length } }));
+      } catch (error) {
+        window.DMGreenhouseCareers.state = 'unavailable';
+        status.dataset.state = 'unavailable';
+        status.replaceChildren(document.createTextNode(hasCurrentData
+          ? 'We couldn’t refresh these listings. Please check Greenhouse for the latest availability. '
+          : 'Current openings are temporarily unavailable here. '));
+        status.append(boardLink());
+      } finally {
+        window.clearTimeout(timeout);
+        busy = false;
+      }
+    };
+
+    window.DMGreenhouseCareers.ready = refresh();
+    window.setInterval(() => {
+      if (document.visibilityState === 'visible') refresh();
+    }, REFRESH_MS);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && Date.now() - lastAttempt >= REFRESH_MS) refresh();
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+  else start();
+})();

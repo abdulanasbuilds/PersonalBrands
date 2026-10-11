@@ -1,0 +1,922 @@
+.elementor-1104588730 .elementor-element.elementor-element-a000002{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000004{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00000c{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00000b{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00000a{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-36141a2{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-8bca3a1{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-bcd7c9f{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-09b2db7{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000026{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000025{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-2318fde{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00002c{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00002b{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-b295e76{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a019e4d{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000035{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000034{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000033{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-0d19754{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-9bbc2ff{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-e4c3da1{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-b2dce82{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-e8af53e{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-c59e971{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-42b94fb{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-bebe140{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000044{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000043{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000042{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00003b{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00003e{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000041{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-0d34f3f{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-cbba39a{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-742c702{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-0c90e9a{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000051{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000050{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000048{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00004f{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00004e{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-ede7c37{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00005d{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00005c{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-40bfc7e{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00005f{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000061{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000063{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000069{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000068{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a000067{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00006c{--display:flex;}.elementor-1104588730 .elementor-element.elementor-element-a00006b{--display:flex;}/* Start custom CSS */@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ============================================================
+   THE AI FREEDOM SUMMIT — built on the Quantum design system.
+   ============================================================ */
+:root{--bg:#0B0F12;--accent:#00BEFF;--ink:#00BEFF;--body:#3A4148;--muted:#5B5B5B;--section:#F6F9FC;--card:#13191F;--gold:#d8b45a;}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'Poppins',sans-serif;color:var(--body);background:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.display{font-family:'Bebas Neue',sans-serif;font-weight:400;line-height:.95;letter-spacing:.5px}
+.accent{color:var(--accent)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}.narrow{max-width:760px;margin:0 auto}
+.eyebrow{font-family:'Poppins';font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:13px;color:var(--ink)}
+.hero .eyebrow,.promise .eyebrow,.speakers .eyebrow,.tiers .eyebrow,.room .eyebrow,.close .eyebrow{color:#4fd0ff}
+a{color:inherit;text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#22c8ff,#00a6e6);color:#04222e;font-family:'Poppins';font-weight:600;padding:17px 36px;border-radius:999px;text-decoration:none;font-size:16px;transition:transform .18s,box-shadow .18s;border:1.5px solid transparent;cursor:pointer;box-shadow:0 8px 22px rgba(0,190,255,.28)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(0,190,255,.45);color:#04222e}
+.btn-lg{font-size:18px;padding:19px 46px}
+.btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.28);box-shadow:none}
+.btn.ghost:hover{border-color:var(--accent);color:var(--accent);box-shadow:none}
+.btn.gold{background:linear-gradient(135deg,#e6cb82,#c2a15a);color:#1a1407;box-shadow:0 8px 22px rgba(194,161,90,.3)}
+.btn.gold:hover{color:#1a1407;box-shadow:0 16px 38px rgba(194,161,90,.45)}
+.cta-block{text-align:center;margin-top:34px}
+
+
+/* nav (sticky) */
+.ubar{background:#070a0c;color:#cfd6dc;text-align:center;font-size:13px;font-weight:500;padding:9px 16px}.ubar b{color:#fff}
+.nav{position:sticky;top:0;z-index:100;background:#0b0f12;border-bottom:1px solid rgba(255,255,255,.08);transition:box-shadow .2s,border-color .2s}
+.nav.is-stuck{border-bottom-color:rgba(255,255,255,.14);box-shadow:0 10px 30px rgba(0,0,0,.55)}
+.nav .wrap{height:76px;display:flex;align-items:center;justify-content:space-between}
+.nav .brand{display:flex;align-items:center;gap:10px}
+.nav .brand .mk{height:22px;width:auto;display:block}
+.nav .brand b{font-family:'Bebas Neue';font-weight:400;font-size:22px;line-height:1;letter-spacing:1px;color:#fff;position:relative;top:1px}
+.nav-links{display:flex;align-items:center;gap:26px}
+.nav-links a{font-size:14px;font-weight:500;color:#cdd2d8}
+.nav-links a:hover{color:#fff}
+.nav a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.nav .btn{padding:11px 22px;font-size:14px;box-shadow:none}
+@media(max-width:900px){.nav-links{gap:18px}.nav-links a{font-size:13px}}
+@media(max-width:720px){.nav-links{display:none}}
+@media(max-width:520px){
+  .nav .wrap{height:64px;padding:0 16px}
+  .nav .brand{gap:8px}
+  .nav .brand .mk{height:16px}
+  .nav .brand b{font-size:17px;white-space:nowrap}
+  .nav .btn{padding:9px 14px;font-size:12px;gap:6px;white-space:nowrap}
+  .ubar{font-size:11.5px;padding:8px 12px}
+  .ubar-venue{display:none}
+}
+@media(max-width:374px){
+  .nav .wrap{padding:0 12px}
+  .nav .brand .mk{height:13px}
+  .nav .brand b{font-size:14px}
+  .nav .btn{padding:8px 10px;font-size:11px}
+}
+/* hero — full-bleed stage image under a blue→dark gradient */
+.hero{position:relative;color:#fff;overflow:hidden;background:
+  linear-gradient(0deg,#070a0c 0%,rgba(7,10,12,0) 26%),
+  linear-gradient(103deg,#0B0F12 0%,rgba(11,15,18,.95) 30%,rgba(16,34,44,.58) 66%,rgba(16,34,44,.26) 100%),
+  url("../../2026/07/aifs-dan-stage.jpg") center/cover no-repeat,#0B0F12}
+.hero-inner{position:relative;z-index:2;max-width:660px;padding:100px 0 110px}
+.hero h1{font-size:clamp(40px,6.4vw,72px);color:#fff;margin:14px 0 20px;max-width:620px}
+.hero p.sub{font-size:19px;color:#cfd6dc;max-width:540px;margin-bottom:26px}
+.ticks{list-style:none;margin:0 0 30px;display:flex;flex-direction:column;gap:11px}
+.ticks li{position:relative;padding-left:30px;font-weight:400;color:#dfe5ea;font-size:15.5px}
+.ticks li b{font-weight:600;color:#fff}
+.ticks li::before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border-radius:50%;background:var(--accent);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") center/13px no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='black' d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") center/13px no-repeat}
+/* stats */
+.stats{background:#070a0c;color:#fff;border-top:1px solid #1b232b;border-bottom:1px solid #1b232b}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:24px}
+.stat{text-align:center}.stat b{display:block;font-family:'Bebas Neue';font-size:34px;color:var(--accent);line-height:1;letter-spacing:.5px}
+.stat span{color:#8b97a0;font-size:12px}
+/* why (shifts pattern) */
+.shifts{background:var(--section);padding:84px 0}
+.shifts h2{font-size:52px;color:#0b0f12;margin:8px 0 26px;max-width:820px}
+.shift{display:grid;grid-template-columns:64px 1fr;gap:16px;padding:11px 14px;border-radius:14px;align-items:start;transition:background .2s,transform .2s}
+.shift .num{font-family:'Bebas Neue';font-size:46px;color:var(--accent);line-height:1}
+.shift h3{font-family:'Bebas Neue';font-size:27px;color:#0b0f12;letter-spacing:.4px}
+.shift p{margin-top:4px;color:#51606a;font-size:15px;line-height:1.5;max-width:820px}
+@media(hover:hover){.shift:hover{background:#fff;transform:translateX(4px);box-shadow:0 10px 30px rgba(11,15,18,.06)}}
+/* problem (letter pattern) */
+.letter{background:#fff;padding:84px 0}
+.letter h2{font-size:44px;color:#0b0f12;margin:8px 0 22px;line-height:1.0}
+.letter p{font-size:17.5px;color:#39424a;margin:0 0 18px}
+.letter p strong{color:#0b0f12}.letter p .em{color:var(--accent)}
+.letter .kick{font-weight:600;color:#0b0f12;font-size:19px}
+/* promise (room pattern) */
+.promise{background:radial-gradient(120% 120% at 20% 0%,#16222c,#0B0F12 60%);color:#dfe5ea;padding:84px 0}
+.promise h2{color:#fff;font-size:48px;margin:8px 0 18px}
+.promise .lead{font-size:20px;color:#fff;font-weight:500;line-height:1.42;margin:0 0 16px;max-width:760px}
+.promise .body{color:#aeb8c0;font-size:16.5px;max-width:720px;margin-bottom:30px}
+.promise .pq{font-size:22px;color:#fff;font-weight:500;line-height:1.4;margin:30px 0 0;padding-left:20px;border-left:3px solid var(--accent);font-style:italic;max-width:760px}
+.promise .lbl{font-family:'Poppins';font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#4fd0ff;font-size:12.5px;margin-bottom:16px}
+.promise .ticks li{color:#dfe5ea;font-size:16px}
+/* who (clean cards) */
+.who{background:#fff;padding:84px 0}
+.who h2{font-size:52px;color:#0b0f12;margin:8px 0 8px}
+.who .lead{color:#51606a;margin-bottom:36px;max-width:720px;font-size:16.5px}
+.who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.wcard{background:var(--section);border:1px solid #e9edf1;border-radius:16px;padding:30px;transition:transform .2s,box-shadow .2s}
+@media(hover:hover){.wcard:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(11,15,18,.08)}}
+.wcard .k{font-family:'Poppins';font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:11.5px;color:#0a7ba6;margin-bottom:12px}
+.wcard h3{font-family:'Bebas Neue';font-size:30px;color:#0b0f12;letter-spacing:.4px;margin-bottom:8px}
+.wcard p{color:#51606a;font-size:14.5px}
+/* speakers (board/bcard pattern) */
+.speakers{background:var(--card);color:#dfe5ea;padding:84px 0}
+.speakers h2{color:#fff;font-size:52px;margin:8px 0 6px}
+.speakers .lead{color:#aeb8c0;margin-bottom:34px;max-width:680px;font-size:15.5px}
+.bgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.bcard{background:#0e141a;border:1px solid #222a31;border-radius:16px;overflow:hidden;transition:transform .25s,box-shadow .25s;position:relative}
+@media(hover:hover){.bcard:hover{transform:translateY(-6px);box-shadow:0 26px 60px rgba(0,0,0,.4)}}
+.bcard .photo{aspect-ratio:4/5;overflow:hidden;background:#10151a}
+.bcard .photo img{width:100%;height:100%;object-fit:cover;object-position:top center}
+.bcard .tag{position:absolute;top:14px;left:14px;background:var(--accent);color:#04222e;font-family:'Poppins';font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:999px}
+.bcard .body{padding:22px}
+.bcard .name{font-family:'Bebas Neue';font-size:28px;color:#fff;letter-spacing:.5px}
+.bcard .role{color:var(--accent);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px}
+.bcard p{color:#aeb8c0;font-size:13.5px}
+.more{margin-top:26px;color:#7c878f;font-size:14.5px}.more b{color:#aeb8c0}
+/* agenda (clean cards) */
+.agenda{background:var(--section);padding:84px 0}
+.agenda h2{font-size:52px;color:#0b0f12;margin:8px 0 26px}
+.agenda-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.acard{background:#fff;border:1px solid #e9edf1;border-radius:16px;padding:30px 28px;transition:transform .2s,box-shadow .2s}
+@media(hover:hover){.acard:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(11,15,18,.08)}}
+.acard .dtop{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;gap:10px}
+.acard .day{font-family:'Poppins';font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#0a7ba6}
+.acard .tag{font-family:'Poppins';font-weight:600;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#5f6a75}
+.acard h3{font-family:'Bebas Neue';font-size:28px;color:#0b0f12;letter-spacing:.4px;margin-bottom:8px}
+.acard p{color:#51606a;font-size:14.5px}
+.agenda-note{margin-top:26px;color:#5b5b5b;font-size:14px;text-align:center}
+/* tickets (ocol pattern — differentiated) */
+.tiers{background:var(--card);color:#dfe5ea;padding:84px 0}
+.tiers h2{color:#fff;font-size:52px;margin:8px 0 8px}
+.tiers .lead{color:#aeb8c0;margin-bottom:42px;max-width:720px;font-size:16.5px}
+.tiers .lead b{color:#fff}.tiers .lead .accent{color:#4fd0ff}
+.tier-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;align-items:stretch}
+.tier{background:#0e141a;border:1px solid #222a31;border-radius:16px;padding:28px 28px 30px;display:flex;flex-direction:column;min-width:0;transition:opacity .7s ease,transform .3s ease,box-shadow .3s ease}
+@media(hover:hover){.tier:hover{transform:translateY(-4px);box-shadow:0 26px 60px rgba(0,0,0,.4)}}
+.tier .plan-tag{font-family:'Poppins';font-weight:700;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#7b858f;min-height:17px;white-space:nowrap;margin-bottom:12px}
+.tier .tname{font-family:'Bebas Neue';color:#fff;font-size:28px;letter-spacing:.4px}
+.tier .seats{color:#8b97a0;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px}
+.tier .seats em{color:#4fd0ff;font-style:normal}
+.tier .price{font-family:'Bebas Neue';font-size:48px;color:#fff;line-height:1}
+.tier .price small{font-family:'Poppins';font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#8b97a0;margin-left:8px}
+.tier ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin:20px 0 24px;padding-top:20px;border-top:1px solid #222a31}
+.tier li{display:flex;gap:11px;align-items:flex-start;color:#c4ccd2;font-size:14px;line-height:1.45}
+.tier li::before{content:"";flex:0 0 11px;height:11px;border-radius:3px;background:#3a4650;opacity:.9;margin-top:calc((1.45em - 11px) / 2)}
+.tier li.lead{color:#fff;font-weight:600}
+.tier .btn{width:100%;justify-content:center;margin-top:auto}
+/* VIP — center-stage "most popular" */
+.tier.pop{border-color:rgba(0,190,255,.55);box-shadow:0 22px 54px rgba(0,0,0,.45)}
+.tier.pop .plan-tag{color:#4fd0ff}
+.tier.pop .price{color:var(--accent)}
+.tier.pop li::before{background:var(--accent);opacity:.85}
+/* CEO — premium */
+.tier.premium{border-color:rgba(216,180,90,.5);background:linear-gradient(180deg,#14110b 0%,#0e141a 42%)}
+.tier.premium .plan-tag{color:var(--gold)}
+.tier-help{margin-top:26px;text-align:center;font-size:14.5px;color:#8b97a0}
+.tier-help a{color:#4fd0ff;font-weight:600}
+.tier-help a:hover{text-decoration:underline}
+.close .cta-block{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.tier.premium .price{color:#e6cb82}
+.tier.premium li::before{background:var(--gold);opacity:.85}
+/* room / seating (real venue map) */
+.room{background:var(--bg);color:#dfe5ea;padding:84px 0;border-top:1px solid rgba(255,255,255,.06)}
+.room h2{color:#fff;font-size:48px;margin:8px 0 14px}
+.room .lead{color:#aeb8c0;font-size:16px;max-width:640px;margin-bottom:40px}
+.seatmap{background:#0e141a;border:1px solid #222a31;border-radius:18px;padding:30px 28px 26px}
+.seatmap-img{width:100%;max-width:600px;margin:0 auto;display:block}
+.legend{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 26px;margin-top:24px;padding-top:22px;border-top:1px solid #1b232b}
+.legend span{display:inline-flex;align-items:center;gap:9px;font-family:'Poppins';font-size:12.5px;color:#aeb8c0}
+.legend b{color:#fff;font-weight:600}
+.legend .lg{width:11px;height:11px;border-radius:3px;flex:none}
+.legend .gold{background:#d8b45a}.legend .cyan{background:#25c3ff}.legend .grey{background:#3f4a55}
+.roomnote{margin:22px auto 0;text-align:center;color:#7c878f;font-size:12.5px;max-width:640px;line-height:1.6}
+/* scarcity (letter/narrow) */
+.scarcity{background:var(--section);padding:84px 0}
+.scarcity h2{font-size:44px;color:#0b0f12;margin:8px 0 20px}
+.scarcity p{font-size:17.5px;color:#39424a;margin:0 0 18px;max-width:760px}
+.scarcity p strong{color:#0b0f12}
+/* faq */
+.faq{background:#fff;padding:84px 0}
+.faq h2{font-size:48px;color:#0b0f12;margin:8px 0 26px}
+.faq-item{border-bottom:1px solid #e2e7ec;padding:4px 0}
+.faq-item summary{cursor:pointer;list-style:none;padding:18px 0;font-weight:600;color:#0b0f12;font-size:17px;display:flex;justify-content:space-between;gap:16px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";color:#0a7ba6;font-weight:700;font-size:22px;line-height:1}
+.faq-item[open] summary::after{content:"\2212"}
+.faq-item .a{padding:0 0 20px;color:#51606a;font-size:15.5px;max-width:760px}
+/* close */
+.close{background:radial-gradient(110% 120% at 50% 0%,#16222c,#0B0F12 60%);color:#fff;padding:92px 0;text-align:center}
+.close h2{font-size:52px;max-width:860px;margin:0 auto 18px;color:#fff}
+.close p{color:#aeb8c0;font-size:17.5px;max-width:660px;margin:0 auto 14px}
+.close .mono{color:#4fd0ff;font-size:14px;font-weight:500;letter-spacing:.04em;margin:6px auto 0}
+footer.site{background:#070a0c;color:#7c878f;padding:36px 0;font-size:13px;text-align:center}
+footer.site a{color:#aeb8c0;text-decoration:none;margin:0 10px}
+footer .fine{max-width:820px;margin:14px auto 0;color:#8a919a;font-size:11.5px;line-height:1.5}
+@media(max-width:760px){
+  .who-grid,.bgrid,.agenda-grid,.tier-grid{grid-template-columns:1fr}
+  .stats .wrap{grid-template-columns:repeat(2,1fr);padding:18px;gap:16px 14px}.stat b{font-size:26px}
+  .shifts h2,.who h2,.speakers h2,.agenda h2,.tiers h2,.room h2,.faq h2,.close h2,.letter h2,.promise h2,.scarcity h2{font-size:34px}
+  .shift{grid-template-columns:46px 1fr;gap:12px;padding:10px 6px}.shift .num{font-size:38px}
+  .hero-inner{padding:56px 0 66px;max-width:100%}.hero h1{font-size:clamp(31px,8.4vw,42px);margin:10px 0 16px}.hero p.sub{font-size:16.5px}
+  .letter,.shifts,.who,.speakers,.agenda,.tiers,.room,.faq,.promise,.scarcity{padding:56px 0}.close{padding:62px 0}
+}
+@media(max-width:430px){.wrap{padding:0 18px}.hero h1{font-size:29px}.stat b{font-size:22px}}
+
+
+/* ===== Elementor .e-con adapters (layout on the inner wrapper) ===== */
+.e-con{--padding-block-start:0;--padding-block-end:0;--padding-inline-start:0;--padding-inline-end:0;--content-width:100%;--gap:0;gap:0;max-width:none}
+.e-con>.e-con-inner{max-width:none;width:100%;gap:0}
+.elementor-widget{margin-bottom:0}
+.wrap.e-con,.e-con.wrap{max-width:1120px;margin-inline:auto;padding-inline:24px;width:100%}
+.narrow.e-con,.e-con.narrow{max-width:760px}
+.eyebrow-w{margin-bottom:2px}
+/* section padding carried on the section containers (hero uses .hero-inner) */
+.shifts.e-con,.letter.e-con,.who.e-con,.speakers.e-con,.agenda.e-con,.tiers.e-con,.room.e-con,.scarcity.e-con,.faq.e-con,.promise.e-con{padding:84px 0}
+.close.e-con{padding:92px 0}
+/* grids/flex move to the inner wrapper */
+.hero-grid>.e-con-inner{display:grid;grid-template-columns:1.12fr .88fr;gap:52px;align-items:center}
+.hero-left>.e-con-inner{display:flex;flex-direction:column;align-items:flex-start}
+.stats .wrap>.e-con-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:24px 0}
+.shift>.e-con-inner{display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:start}
+.who-grid>.e-con-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.bgrid>.e-con-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.agenda-grid>.e-con-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.tier-grid>.e-con-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.tier.e-con>.e-con-inner{display:flex;flex-direction:column;height:100%}
+.tier-body{flex:1 1 auto}
+.cta-block>.e-con-inner{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.scar-cta>.e-con-inner{justify-content:flex-start}
+/* direct-child (.e-con-full) model: single-class grid/flex containers lose their gap to .e-con{gap:0} — re-assert with higher specificity so cards breathe */
+.who-grid.e-con{gap:26px}
+.bgrid.e-con{gap:30px;display:grid;grid-template-columns:repeat(4,1fr)}
+.tier-grid.e-con{gap:30px;align-items:stretch}
+.shift.e-con{gap:16px}
+.cta-block.e-con{flex-direction:row;justify-content:center;gap:14px;flex-wrap:wrap}
+.scar-cta.e-con{justify-content:flex-start}
+/* headings render as .elementor-heading-title */
+.hero .elementor-heading-title{font-size:clamp(40px,6.4vw,72px);color:#fff;margin:14px 0 20px;max-width:640px}
+.shifts .elementor-heading-title{font-size:52px;color:#0b0f12;margin:8px 0 26px;max-width:820px}
+.letter .elementor-heading-title{font-size:44px;color:#0b0f12;margin:8px 0 22px}
+.promise .elementor-heading-title{color:#fff;font-size:48px;margin:8px 0 18px}
+.who .elementor-heading-title{font-size:52px;color:#0b0f12;margin:8px 0 8px}
+.speakers .elementor-heading-title{color:#fff;font-size:52px;margin:8px 0 6px}
+.agenda .elementor-heading-title{font-size:52px;color:#0b0f12;margin:8px 0 26px}
+.tiers .elementor-heading-title{color:#fff;font-size:52px;margin:8px 0 8px}
+.room .elementor-heading-title{color:#fff;font-size:48px;margin:8px 0 14px}
+.scarcity .elementor-heading-title{font-size:44px;color:#0b0f12;margin:8px 0 20px}
+/* ---- room: seat map left, the constraint right ---- */
+.room.e-con{background:radial-gradient(120% 100% at 30% 10%,#141f28 0%,#0B0F12 62%);padding:88px 0;border-top:1px solid rgba(255,255,255,.07)}
+.room-grid.e-con{align-items:center;gap:56px}
+@media(min-width:981px){.room-grid.e-con{display:grid;grid-template-columns:1.05fr .95fr}}
+.seatmap{background:transparent;border:0;padding:0}
+.seatmap-svg{width:100%;max-width:560px;margin:0 auto;display:block;height:auto}
+/* desktop map's dots go sub-pixel under ~700px, so swap to the coarse variant */
+.map-mob{display:none}
+@media(max-width:700px){.map-desk{display:none}.map-mob{display:block}}
+@media(max-width:700px){
+  .room-map,.seatmap-w,.seatmap,.map-mob{width:100%;min-width:0;overflow:visible}
+  .map-mob .seatmap-svg{width:100%;height:auto;max-width:420px;margin:0 auto 10px;display:block}
+  .room-grid.e-con{gap:34px}
+  .room .lead{font-size:15.5px}
+}
+.room .elementor-heading-title{color:#fff;font-size:clamp(34px,4.2vw,48px);margin:8px 0 20px;line-height:1.02}
+.room .lead{color:#aeb8c0;font-size:16.5px;line-height:1.65;margin:0 0 16px;max-width:520px}
+.roomtiers{margin:26px 0 4px;border-top:1px solid rgba(255,255,255,.09)}
+.rt{display:grid;grid-template-columns:auto 168px 1fr;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.09)}
+.rt b{white-space:nowrap}
+.rt .lg{width:10px;height:10px;border-radius:50%;display:inline-block}
+.rt .lg.gold{background:#e6c983;box-shadow:0 0 9px rgba(230,201,131,.6)}
+.rt .lg.cyan{background:#3fc9ff;box-shadow:0 0 9px rgba(63,201,255,.6)}
+.rt .lg.grey{background:#5b6a78}
+.rt b{font-family:'Bebas Neue';font-size:21px;letter-spacing:.5px;color:#fff;font-weight:400}
+.rt span{color:#8b97a0;font-size:14px;line-height:1.5}
+@media(max-width:520px){.rt{grid-template-columns:auto 1fr;row-gap:2px}.rt span{grid-column:2}}
+/* ---- waitlist modal ---- */
+/* ---- ad video ----
+   Elementor's custom-CSS sanitiser SILENTLY DROPPED the previous desktop rule,
+   which sized the box with a nested viewport-clamp expression. Only the mobile
+   override survived into post-12820.css, so .adv-v resolved to full width at
+   every breakpoint and the video rendered full-bleed. Plain px values only here,
+   and the deploy asserts this rule is present in the GENERATED stylesheet before
+   it is accepted - a preflight on the source alone did not catch that drop.
+   349 = 620 * 9 / 16. */
+/* <picture> is inline by default, which leaves a baseline gap under the photo */
+.bcard .photo picture,.photo picture{display:block;width:100%;height:100%}
+.adv-wrap.e-con{padding:64px 0 8px}
+/* Sized and coloured to match .speakers h2 / .tiers h2, the other dark
+   sections, and it steps to 34px at the same 760px breakpoint they use,
+   so the video section reads as native furniture, not a bolted-on embed. */
+.adv-wrap h2{color:#fff;font-size:52px;margin:0 0 28px;text-align:center;padding:0 24px}
+@media(max-width:760px){.adv-wrap h2{font-size:34px;margin:0 0 20px}}
+.adv{display:flex;justify-content:center;padding:0 24px}
+.advp{position:relative;display:block;flex:0 0 auto;width:349px;height:620px;line-height:0}
+.adv-v{display:block;width:100%;height:100%;object-fit:cover;
+  border-radius:18px;background:#000;border:1px solid rgba(255,255,255,.09);
+  box-shadow:0 26px 70px rgba(0,0,0,.55);cursor:pointer}
+/* centred play button, hidden while playing */
+.adv-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:84px;height:84px;padding:0;border:0;border-radius:50%;cursor:pointer;
+  background:rgba(255,255,255,.95);box-shadow:0 12px 42px rgba(0,0,0,.5);
+  display:flex;align-items:center;justify-content:center;
+  transition:opacity .2s ease,transform .18s ease,background .18s ease}
+.adv-btn svg{width:32px;height:32px;margin-left:4px;fill:#0b0f12}
+.advp:hover .adv-btn{background:#fff;transform:translate(-50%,-50%) scale(1.06)}
+.advp.playing .adv-btn{opacity:0;pointer-events:none}
+/* short laptop screens: keep the whole thing on one screen */
+@media(max-height:820px){.advp{width:293px;height:520px}}
+@media(max-width:620px){
+  .adv-wrap.e-con{padding:40px 0 4px}
+  .adv{padding:0 20px}
+  .advp{width:100%;height:auto;aspect-ratio:9/16}
+  .adv-v{border-radius:14px}
+  .adv-btn{width:72px;height:72px}
+  .adv-btn svg{width:28px;height:28px}
+}
+.wlmodal-wrap.e-con{padding:0}
+/* Never let the modal's wrapper become a containing block for the fixed overlay.
+   WP Rocket LazyRender applies [data-wpr-lazyrender]{content-visibility:auto}, which
+   implies contain:paint and re-anchors position:fixed children to the wrapper. */
+.wlmodal-wrap,.wlmodal-wrap.e-con{content-visibility:visible!important;contain:none!important}
+.wlmodal{position:fixed;inset:0;background:rgba(5,8,10,.82);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);
+  z-index:9998;display:none;align-items:center;justify-content:center;padding:20px}
+.wlmodal.open{display:flex}
+.wlmodal-card{position:relative;background:#fff;border-radius:18px;width:100%;max-width:540px;max-height:86vh;max-height:86dvh;overflow-y:auto;overscroll-behavior:contain;
+  padding:34px 32px 26px;box-shadow:0 40px 100px rgba(0,0,0,.6)}
+.wlmodal-x{position:absolute;top:12px;right:14px;width:38px;height:38px;border-radius:50%;background:#0b0f12;color:#fff;
+  border:none;font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.wlmodal-x:hover{background:#000}
+.wlm-tag{font-family:'Poppins';font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#00BEFF;margin-bottom:8px}
+.wlm-h{font-family:'Bebas Neue';font-size:30px;color:#0b0f12;letter-spacing:.5px;line-height:1}
+.wlm-sub{font-size:14px;line-height:1.55;color:#5b6670;margin:8px 0 16px}
+.wlmodal-body iframe{width:100%;border:0;display:block;min-height:280px}
+/* native waitlist form */
+.wlform{display:flex;flex-direction:column;gap:14px}
+/* class body.elementor-page-1104588730s outrank the UA [hidden] rule, so state it explicitly */
+.wlform[hidden],.wlsuccess[hidden]{display:none}
+.wlf-row{display:flex;flex-direction:column;gap:5px}
+.wlf-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+/* email and phone sit on their own full-width rows: the country select and the
+   number were fighting over half a modal, which squeezed the number field. */
+.wlf-1{display:grid;grid-template-columns:1fr;gap:12px}
+@media(max-width:560px){.wlf-2{grid-template-columns:1fr}}
+.wlf-row label{font-family:'Poppins';font-size:12.5px;font-weight:600;color:#0b0f12;letter-spacing:.01em}
+.wlf-row input,.wlf-row select,.wlf-row textarea{font-family:'Poppins';font-size:16px;color:#0b0f12;background:#fff;padding:11px 13px;
+  border:1.5px solid #d3dae0;border-radius:10px;outline:none;transition:border-color .15s,box-shadow .15s;width:100%}
+.wlf-row input::placeholder{color:#a8b2bb}
+.wlf-row input:focus,.wlf-row select:focus{border-color:#00BEFF;box-shadow:0 0 0 3px rgba(0,190,255,.18)}
+.wlf-row select{appearance:none;-webkit-appearance:none;cursor:pointer;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230b0f12' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>");background-repeat:no-repeat;background-position:right 13px center;background-size:16px;padding-right:40px}
+.wlf-row select:invalid,.wlf-row select option[value='']{color:#a8b2bb}
+.wlf-row input.is-bad,.wlf-row select.is-bad{border-color:#e0453b}
+.wlf-err{display:none;font-size:12px;color:#e0453b}
+.wlf-check{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:#3a4148;line-height:1.45;cursor:pointer;margin-top:2px}
+.wlf-check input{width:18px;height:18px;margin:1px 0 0;accent-color:#00BEFF;flex:none}
+.wlf-btn{margin-top:4px;width:100%;border:none;cursor:pointer;font-family:'Poppins';font-weight:600;font-size:16px;
+  color:#04222e;background:linear-gradient(135deg,#22c8ff,#00a6e6);padding:15px 20px;border-radius:999px;
+  box-shadow:0 8px 22px rgba(0,190,255,.28);transition:transform .15s,box-shadow .15s}
+.wlf-btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 14px 30px rgba(0,190,255,.4)}
+.wlf-btn:disabled{opacity:.65;cursor:default}
+.wlf-legal{font-size:11.5px;color:#8a939c;text-align:center;margin:2px 0 0;line-height:1.5}
+/* success state */
+.wlsuccess{text-align:center;padding:6px 0 2px}
+.wls-tick{width:54px;height:54px;border-radius:50%;background:rgba(0,190,255,.12);color:#00BEFF;
+  display:flex;align-items:center;justify-content:center;margin:0 auto 14px}
+.wls-tick svg{width:26px;height:26px}
+.wls-h{font-family:'Bebas Neue';font-size:32px;color:#0b0f12;letter-spacing:.5px;line-height:1}
+.wls-sub{font-size:14.5px;color:#5b6670;line-height:1.6;margin:10px auto 0;max-width:380px}
+@media(max-width:520px){
+  .wlmodal{padding:0;align-items:flex-end}
+  .wlmodal-card{max-width:none;border-radius:18px 18px 0 0;max-height:94vh;max-height:94dvh;padding:28px 20px 22px}
+  .wlm-h{font-size:32px}
+}
+.wlm-fine{margin-top:18px;padding-top:16px;border-top:1px solid #e8ecef;font-size:13px;color:#6f7a85;line-height:1.6}
+.wlm-fine a{color:#00BEFF;font-weight:600}.wlm-fine a:hover{text-decoration:underline}
+/* .wlf-row sets display:flex, which beats the UA stylesheet's [hidden]{display:none}.
+   Without this the CEO-only field stayed visible on GA and VIP even though the
+   hidden attribute was set correctly. Attribute body.elementor-page-1104588730 outranks the class. */
+.wlf-row[hidden]{display:none !important}
+/* optional SMS opt-in. Unticked by default: a pre-ticked consent box is not valid
+   express written consent, so the default must be off. */
+.wlf-check{display:grid;grid-template-columns:auto 1fr;gap:9px;align-items:start;
+  margin:2px 0 2px;cursor:pointer}
+.wlf-check input{width:17px;height:17px;margin:1px 0 0;accent-color:#00BEFF;flex:none;padding:0}
+.wlf-check span{font-size:11.5px;line-height:1.45;color:#5c6a75}
+.wlf-phone{display:grid;grid-template-columns:minmax(150px,180px) 1fr;gap:8px}
+/* the country select carries a long option list, so stop it widening the grid */
+.wlf-phone select{min-width:0;text-overflow:ellipsis}
+.wlf-row textarea{resize:vertical;min-height:76px;line-height:1.45}
+.wlf-row textarea::placeholder{color:#a8b2bb}
+.js-wl,.js-wl a{cursor:pointer}
+html{scroll-behavior:smooth}
+/* scroll-padding-top on html already clears the sticky nav. Any scroll-margin
+   here ADDS to it and leaves the previous section visible above the target. */
+#tiers,#speakers,#why,#seating,#top{scroll-margin-top:0}
+/* Nav height comes from the Elementor container .nav-inner, which ships with zero
+   vertical padding - that is what made the bar feel cramped. min-height rather than
+   height so a wrapped CTA cannot clip. Kept just under scroll-padding-top:80px so
+   anchors still land clear of it. */
+.nav-inner{min-height:76px}
+@media(max-width:720px){.nav-inner{min-height:64px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* ---- 'why founders attend' flips to dark ------------------------------
+   It was #F6F9FC, sitting directly above two beige sections: three light
+   sections in a row, in two different tones. Dark here restores the
+   alternation and keeps one warm tone for the light chapter below it.
+   ---------------------------------------------------------------------- */
+body{background:#0B0F12}
+.room.e-con,.close.e-con{background:#0B0F12}
+/* Countdown carries the tiers tone so it reads as part of that section.
+   NOT transparent: body is #000, so an unpainted section falls through to
+   pure black - which is what made this strip look like a cut-out band. */
+.ls-wrap.e-con{background:var(--card)}
+.shifts.e-con{background:#0B0F12}
+.shifts .elementor-heading-title{color:#fff}
+.shifts .lead{color:#aeb8c0}
+.shift h3{color:#fff}
+.shift p{color:#aeb8c0}
+.shift:hover{background:rgba(255,255,255,.04);box-shadow:none}
+
+/* ---- light sections: the Quantum Inner Circle pattern -----------------
+   Measured off /quantum-inner-circle-lp/ rather than eyeballed:
+     "From the desk of Dan Martell"  ->  white  #fff
+     "The five shifts"              ->  grey   #F6F9FC
+     eyebrow on BOTH                ->  #00BEFF at full strength
+   The tone change from white to grey is the section break, so no divider
+   rule and no bespoke padding are needed here.
+   ---------------------------------------------------------------------- */
+.letter.e-con,.faq.e-con{background:#fff}
+.who.e-con{background:#F6F9FC}
+.letter .elementor-heading-title,.who .elementor-heading-title{color:#0b0f12}
+.letter p,.who .lead{color:#51606a}
+.letter .pq{color:#51606a;border-left-color:#00BEFF}
+.who .tier-help{color:#6f767d}
+.letter .eyebrow,.who .eyebrow,.faq .eyebrow{color:#00BEFF}
+.faq-item{border-bottom-color:#e2e7ec}
+.faq-item .a{color:#51606a}
+/* ---- tier tag row: label + scarcity pill on one line -------------------
+   The pill used to be absolutely positioned in the card corner, which meant the
+   tag underneath needed a 120px right pad to dodge it. Inline is simpler and it
+   reads as one statement: BY APPLICATION - 9 SPOTS REMAINING.
+   ---------------------------------------------------------------------- */
+.tier{position:relative}
+.tier .plan-tag{display:flex;flex-wrap:wrap;align-items:center;gap:8px;white-space:normal}
+/* Scarcity sits at the foot of the card, immediately above the CTA. No chip,
+   no border: a small dot and a line of type reads as part of the card instead
+   of a badge stuck onto it. */
+/* Elementor puts position:relative on the widget, so .tier-body is the
+   containing block, not .tier. Offsets are therefore measured from the top of
+   the tag row, which is exactly where this should sit. */
+.tier-left{position:absolute;top:0;right:0;z-index:2;margin:0;
+  font-family:'Poppins';font-weight:700;font-size:10.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:#ff6b5a;white-space:nowrap;
+  min-height:26px;display:flex;align-items:center}
+
+/* CEO's tag row is taller than GA/VIP's because it carries the pill, which
+   pushed its card heading 9px lower than the other two. Match the tallest. */
+.tier .plan-tag{min-height:26px}
+
+/* ---- CTA layout fixes -------------------------------------------------
+   Elementor button widgets are block level and stretch to the container, so
+   two of them in .cta-block measured 805px each inside 1072px: the second
+   wrapped to its own line and "centering" a near-full-width item did nothing.
+   Pin them to their content width instead.
+   ---------------------------------------------------------------------- */
+.cta-block .elementor-widget-button{width:auto;flex:0 0 auto}
+/* A CTA label should never wrap. The seating-section button was breaking
+   "Join the Waitlist" across three lines inside a 164px box. */
+.cta,.cta.lg,.btn,.sc-btn{white-space:nowrap}
+
+/* ---- speakers: more room now that there are four across ----------------
+   4 cards in the standard 1180px wrap left each one ~265px, which squeezed
+   the bios into very narrow columns on desktop only.
+   ---------------------------------------------------------------------- */
+@media(min-width:1101px){
+  .speakers .wrap{max-width:1340px}
+}
+
+/* ---- CEO tier: make it read as the premium one ------------------------
+   It was the same card with gold accents. Four changes give it weight:
+   a real gradient border (padding-box/border-box trick, not a flat colour),
+   a warm radial glow instead of a flat top tint, a brushed-metal gradient on
+   the price, and a deeper shadow with a gold cast so it sits forward of the
+   other two.
+   ---------------------------------------------------------------------- */
+.tier.premium{
+  border:1px solid transparent;
+  background:
+    radial-gradient(120% 80% at 12% 0%, #1d1810 0%, #14110b 38%, #0d1116 78%) padding-box,
+    linear-gradient(155deg, rgba(246,228,174,.9) 0%, rgba(216,180,90,.28) 38%,
+                    rgba(184,145,47,.22) 62%, rgba(246,228,174,.65) 100%) border-box;
+  box-shadow:0 28px 70px rgba(0,0,0,.55), 0 0 34px rgba(216,180,90,.07);
+}
+@media(hover:hover){
+  .tier.premium:hover{
+    box-shadow:0 34px 84px rgba(0,0,0,.6), 0 0 46px rgba(216,180,90,.13);
+  }
+}
+/* brushed-metal number. small stays solid, otherwise it inherits the clip. */
+.tier.premium .price{
+  background:linear-gradient(176deg,#fbf0cf 0%,#eed79a 32%,#d8b45a 62%,#b8912f 100%);
+  -webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent;
+}
+.tier.premium .price small{
+  background:none;color:#9c8c66;-webkit-text-fill-color:#9c8c66;
+}
+.tier.premium .tname{color:#fbf3de}
+.tier.premium ul{border-top-color:rgba(216,180,90,.22)}
+.tier.premium li{color:#d3cbba}
+.tier.premium li.lead{color:#fbf3de}
+
+
+/* ---- what you learn: open grid ----------------------------------------
+   Cards minus the cards. Same 3x2 rhythm as before, but no boxes, no borders
+   and no rules. Whitespace does the separating. The page already leans on
+   boxes in the tiers, speakers and FAQ, so another container here read as one
+   more sales grid rather than a list of what is covered.
+   ---------------------------------------------------------------------- */
+.learn-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:38px 40px;margin-top:34px}
+.li-tag{font-family:'Poppins';font-weight:600;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:#00BEFF;margin-bottom:9px}
+.li-t{font-family:'Bebas Neue';font-size:25px;line-height:1.08;letter-spacing:.4px;color:#0b0f12}
+@media(max-width:980px){.learn-grid{grid-template-columns:1fr 1fr;gap:32px}}
+@media(max-width:1100px){.bgrid>.e-con-inner,.bgrid.e-con{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.bgrid>.e-con-inner,.bgrid.e-con{grid-template-columns:1fr}}
+@media(max-width:600px){.learn-grid{grid-template-columns:1fr;gap:26px;margin-top:26px}}
+
+/* ---- speakers: the unannounced card ----------------------------------
+   Same card as the other three so the grid stays even, just desaturated and
+   slightly dimmed so it reads as a placeholder without breaking the row.
+   ---------------------------------------------------------------------- */
+.bcard-tba .photo img{filter:grayscale(1) contrast(1.05);opacity:.62}
+.bcard-tba .name{color:#aeb8c0}
+.bcard-tba .role{color:#4fd0ff}
+
+/* why-attend lead sits on dark now */
+.shifts .why-lead p{color:#aeb8c0;font-size:16.5px;line-height:1.6;max-width:760px;margin:0 0 6px}
+
+/* ---- agenda roadmap ---- */
+.ag{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:30px}
+/* Cards carry --card (#13191F), the SAME tone as the .speakers section that
+   follows, so the grey section hands off into the dark one instead of cutting
+   to it. Card internals therefore use the dark-section palette: #4fd0ff for the
+   day tag (not #00BEFF, which is the on-light variant) and #e8c877 for CEO. */
+.ag-col{background:var(--card);border:1px solid #222a31;border-radius:16px;
+  padding:26px 24px 22px;box-shadow:0 18px 44px rgba(11,15,18,.10)}
+.ag-day{font-family:'Bebas Neue';font-size:30px;letter-spacing:.5px;color:#fff;line-height:1}
+.ag-tag{font-family:'Poppins';font-weight:600;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:#4fd0ff;margin:4px 0 18px}
+.ag-list{list-style:none;margin:0;padding:0;position:relative}
+.ag-list:before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:1px;
+  background:linear-gradient(#2b3947,rgba(43,57,71,0))}
+.ag-list li{position:relative;padding:0 0 16px 24px}
+.ag-list li:before{content:"";position:absolute;left:0;top:6px;width:11px;height:11px;
+  border-radius:50%;background:var(--card);border:2px solid #3d5468}
+.ag-list li.ceo:before{border-color:#e8c877}
+.ag-t{display:block;color:#dfe5ea;font-size:15px;line-height:1.4}
+.ag-s{display:block;font-family:'Poppins';font-weight:600;font-size:11px;letter-spacing:.10em;
+  text-transform:uppercase;color:#8b97a0;margin-top:3px}
+.ag-list li.ceo .ag-s{color:#e8c877}
+@media(max-width:820px){
+  .ag{grid-template-columns:1fr;gap:20px}
+}
+/* ---- credibility marquee ---- */
+.mq-wrap.e-con{background:#070a0c;border-block:1px solid rgba(255,255,255,.07);padding:0}
+.mq{overflow:hidden;position:relative;padding:14px 0;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
+          mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.mq-track{display:flex;width:max-content;gap:52px;animation:mqs 38s linear infinite}
+.mq-i{font-family:'Poppins';font-weight:600;font-size:13px;letter-spacing:.16em;
+  text-transform:uppercase;color:#6d7880;white-space:nowrap}
+@keyframes mqs{to{transform:translateX(-50%)}}
+.mq:hover .mq-track{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.mq-track{animation:none;justify-content:center;flex-wrap:wrap}}
+
+/* ---- launch strip: countdown + waitlist size ---- */
+.ls-wrap.e-con{padding:0}
+/* The countdown belongs to the tiers section, so close the gap between them:
+   84px tiers padding + 26px here read as two separate blocks. */
+.tiers.e-con{padding-bottom:40px}
+.ls{max-width:1180px;margin:0 auto;padding:22px 24px 30px;text-align:center}
+.ls-tag{font-family:'Poppins';font-weight:600;font-size:11.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:#4fd0ff;margin-bottom:14px}
+.ls-clock{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.ls-clock>span{background:#0e141a;border:1px solid #222a31;border-radius:14px;
+  min-width:82px;padding:12px 10px 10px;display:flex;flex-direction:column;gap:2px}
+.ls-clock b{font-family:'Bebas Neue';font-size:34px;line-height:1;color:#fff;letter-spacing:.5px;
+  font-variant-numeric:tabular-nums}
+.ls-clock i{font-family:'Poppins';font-style:normal;font-weight:600;font-size:10px;
+  letter-spacing:.14em;text-transform:uppercase;color:#7c878f}
+.ls-open{font-family:'Bebas Neue';font-size:30px;color:var(--accent);letter-spacing:.5px}
+.ls-count{margin-top:16px;font-size:15px;color:#aeb8c0}
+.ls-count b{color:#fff;font-weight:600}
+.ls-note{margin-top:10px;font-size:13.5px;color:#7c878f}
+
+/* ---- sticky mobile CTA ---- */
+.sticky-wrap.e-con,.cd-wrap.e-con{padding:0}
+.sticky-cta{display:none}
+@media(max-width:700px){
+  .sticky-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;
+    align-items:center;gap:12px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+    background:rgba(7,10,12,.94);backdrop-filter:blur(10px);
+    border-top:1px solid rgba(255,255,255,.10)}
+  .sc-l{display:flex;flex-direction:column;line-height:1.25;min-width:0}
+  .sc-l b{font-family:'Poppins';font-weight:600;font-size:12.5px;color:#fff}
+  .sc-l span{font-family:'Poppins';font-size:11.5px;color:#8b97a0;font-variant-numeric:tabular-nums}
+  .sticky-cta .sc-btn{flex:none;margin-left:auto;
+    background:none!important;box-shadow:none!important;border-radius:0;
+    color:#00beff!important;font-family:'Poppins';font-weight:600;font-size:15px;
+    padding:12px 2px;white-space:nowrap}
+  /* keep the footer clear of the bar */
+  .wfooter.e-con{padding-bottom:96px}
+  .ls-clock>span{min-width:70px}
+  .ls-clock b{font-size:28px}
+}
+.wlph{border:2px dashed #cfd6dc;border-radius:12px;padding:40px 24px;text-align:center;background:#f7f9fb}
+.wlph-tag{font-family:'Poppins';font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#00BEFF;margin-bottom:12px}
+.wlph-note{font-family:'Bebas Neue';font-size:28px;color:#0b0f12;letter-spacing:.5px;margin-bottom:12px}
+.wlph-sub{font-family:'Poppins';font-size:13px;line-height:1.6;color:#5b6670;max-width:400px;margin:0 auto}
+.wl-fine{margin-top:20px;font-size:14px;color:#8b97a0;line-height:1.6}
+.wl-fine a{color:#4fd0ff;font-weight:600}.wl-fine a:hover{text-decoration:underline}
+/* tier seat-count line collapses cleanly when quantities are hidden */
+.tier .seats:empty{display:none;margin:0}
+/* sticky nav (top-level container -> sticks to page) + inlined seat-map sizing */
+.nav.e-con{position:sticky;top:0;z-index:100}
+.seatmap-svg{width:100%;max-width:600px;margin:0 auto;display:block;height:auto}
+.faq .elementor-heading-title{font-size:48px;color:#0b0f12;margin:8px 0 26px}
+.close .elementor-heading-title{font-size:52px;max-width:860px;margin:0 auto 18px;color:#fff}
+/* native buttons */
+.cta .elementor-button{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#22c8ff,#00a6e6);color:#04222e;font-family:'Poppins';font-weight:600;padding:17px 36px;border-radius:999px;font-size:16px;box-shadow:0 8px 22px rgba(0,190,255,.28);transition:transform .18s,box-shadow .18s;border:1.5px solid transparent}
+.cta.lg .elementor-button{font-size:18px;padding:19px 46px}
+.cta .elementor-button:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(0,190,255,.45);color:#04222e}
+.tier .cta .elementor-button{width:100%;justify-content:center}
+.ga-btn .elementor-button{background:transparent;color:#fff;border-color:rgba(255,255,255,.28);box-shadow:none}
+.ga-btn .elementor-button:hover{border-color:var(--accent);color:var(--accent);box-shadow:none}
+.top-btn .elementor-button{background:linear-gradient(135deg,#e4c877,#c2a15a);color:#1a1407;box-shadow:0 8px 22px rgba(194,161,90,.3)}
+.top-btn .elementor-button:hover{color:#1a1407;box-shadow:0 16px 38px rgba(194,161,90,.45)}
+/* faq accordion -> Quantum hairline style */
+.faq-acc .elementor-accordion-item{border:none;border-bottom:1px solid #e2e7ec;background:transparent}
+.faq-acc .elementor-tab-title{padding:18px 0;font-family:'Poppins';font-weight:600;color:#0b0f12;font-size:17px;background:transparent}
+.faq-acc .elementor-tab-title a,.faq-acc .elementor-accordion-title{color:#0b0f12}
+.faq-acc .elementor-accordion-icon{color:#00BEFF}
+.faq-acc .elementor-tab-content{border:none;padding:0 0 20px;color:#51606a;font-size:15.5px;max-width:760px;background:transparent}
+.faq-acc .elementor-tab-content p{margin:0}
+/* footer + ubar full width */
+.wfooter.e-con{background:#070a0c;padding:36px 0}
+.footer-txt{text-align:center;color:#7c878f;font-size:13px}
+.footer-txt a{color:#aeb8c0;text-decoration:none;margin:0 10px}
+.footer-txt p{margin:0}.footer-txt p+p{margin-top:8px}
+
+
+/* ---- CEO gold upgrade: scarcity pill, gold CTA, stronger frame ---- */
+.tier.premium{
+  border-width:1.5px;
+  background:
+    radial-gradient(120% 80% at 12% 0%, #201a0f 0%, #16120b 38%, #0d1116 78%) padding-box,
+    linear-gradient(155deg, rgba(248,231,178,.95) 0%, rgba(222,186,95,.45) 38%,
+                    rgba(190,150,52,.4) 62%, rgba(248,231,178,.85) 100%) border-box;
+  box-shadow:0 28px 70px rgba(0,0,0,.55), 0 0 44px rgba(222,186,95,.16);
+}
+.tier.premium:hover{box-shadow:0 34px 84px rgba(0,0,0,.6), 0 0 60px rgba(222,186,95,.24)}
+.tier.premium .plan-tag span{
+  display:inline-flex;align-items:center;
+  background:linear-gradient(135deg,#f8e7b2 0%,#e8cd7f 48%,#cfa63f 100%);
+  color:#2a1f06;font-family:'Poppins';font-weight:700;font-size:11px;
+  letter-spacing:.12em;text-transform:uppercase;
+  padding:5px 13px;border-radius:999px;
+  box-shadow:0 4px 14px rgba(216,180,90,.35);
+}
+.tier.premium .cta .elementor-button{
+  background:linear-gradient(135deg,#f8e7b2 0%,#e6c979 45%,#c9a03e 100%);
+  color:#241a04;box-shadow:0 8px 24px rgba(216,180,90,.35);
+}
+.tier.premium .cta .elementor-button:hover{
+  color:#241a04;box-shadow:0 16px 40px rgba(216,180,90,.5);
+}
+
+
+/* ---------------------------------------------------------------------------
+   Main page treatment, 2026-09-09: top Sept 16 countdown banner, hero video,
+   and the anchor-scroll fix. `html{scroll-behavior:smooth}` makes every #tiers
+   CTA a no-op on these pages (a smooth scrollTo leaves scrollY at 0 while an
+   instant one works), so it is forced back to auto here too.
+   --------------------------------------------------------------------------- */
+html{scroll-behavior:auto!important}
+:root{--wlbH:44px}
+.wlb-spacer{height:var(--wlbH)}
+.wlb-fixed{position:fixed;top:0;left:0;right:0;z-index:200;background:linear-gradient(90deg,#2a0406 0%,#8f1016 14%,#d4161f 38%,#ee2029 50%,#d4161f 62%,#8f1016 86%,#2a0406 100%);box-shadow:0 2px 14px rgba(0,0,0,.5);border-bottom:1px solid rgba(0,0,0,.35)}
+body.admin-bar .wlb-fixed{top:32px}
+.wlb{height:var(--wlbH);display:flex;align-items:center;justify-content:center;gap:24px;padding:0 18px;font-family:'Poppins';font-weight:700;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:#fff;white-space:nowrap;overflow:hidden}
+.wlb-i{display:inline-flex;align-items:center;gap:9px}
+.wlb-dot{width:8px;height:8px;border-radius:50%;background:#ff2d55;box-shadow:0 0 0 0 rgba(255,45,85,.75);animation:wlbPulse 2s infinite;flex:0 0 auto}
+@keyframes wlbPulse{0%{box-shadow:0 0 0 0 rgba(255,45,85,.75)}70%{box-shadow:0 0 0 9px rgba(255,45,85,0)}100%{box-shadow:0 0 0 0 rgba(255,45,85,0)}}
+@media(prefers-reduced-motion:reduce){.wlb-dot{animation:none}}
+.wlb-clock{font-variant-numeric:tabular-nums;letter-spacing:.06em}
+.wlb-meta{opacity:.85;font-weight:600}
+.nav{top:var(--wlbH)}
+body.admin-bar .nav{top:calc(var(--wlbH) + 32px)}
+@media(max-width:640px){.wlb{gap:12px;font-size:11px}.wlb-meta{display:none}}
+.hero>.hero-grid.e-con-full{display:grid;grid-template-columns:1.12fr .88fr;gap:52px;align-items:center}
+.hero-vid{place-self:center end}
+.hero-vid .adv{padding:0}
+.hero-vid .advp{width:100%;max-width:300px;height:auto;aspect-ratio:9/16}
+.hero-vid .adv-v{border:1px solid rgba(255,255,255,.18);box-shadow:0 10px 20px rgba(0,0,0,.55), 0 34px 70px rgba(0,0,0,.65)}
+.hero-vid .adv-btn{box-shadow:0 14px 40px rgba(0,0,0,.55), 0 0 0 8px rgba(255,255,255,.10)}
+@media(max-width:760px){
+  .hero>.hero-grid.e-con-full{grid-template-columns:1fr;gap:0}
+  .hero-vid{justify-self:center;margin:4px 0 8px}
+  .hero-vid .advp{max-width:262px}
+}
+
+
+/* ---------------------------------------------------------------------------
+   Testimonials lifted from Quantum, 2026-09-09 (page 12619, section 8d3fa4c).
+   Verbatim except `.wrap` and `.eyebrow`, which this page already defines
+   differently - those are scoped to `.results` so the block keeps Quantum's
+   look without restyling the rest of the page. The marquee keyframes carry no
+   class body.elementor-page-1104588730, so they are copied separately or the track renders frozen.
+   --------------------------------------------------------------------------- */
+.results .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.results .eyebrow{font-family:'Poppins';font-weight:600;letter-spacing:.16em;text-transform:uppercase;font-size:13px;color:var(--ink)}
+.results .hero .eyebrow, .results .peek .eyebrow, .results .room .eyebrow, .results .wyg .eyebrow, .results .close .eyebrow{color:#4fd0ff}
+.results .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:24px}
+/* testimonials text */
+  .results{background:#fff;padding:84px 0}
+.results h2{font-size:48px;color:#0b0f12;margin:6px 0 6px}
+.results .sub{color:var(--muted);margin:0 0 32px;font-size:14.5px}
+.tgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media(max-width:760px){
+.hero-grid, .sys-grid, .peek-grid, .bgrid, .vplace, .vgrid, .tgrid, .wyg-grid{grid-template-columns:1fr}
+.results .stats .wrap{grid-template-columns:repeat(2,1fr);padding:18px;gap:16px 14px}
+.shifts h2, .systems h2, .peek h2, .faq h2, .results h2, .vids h2, .room h2, .close h2, .letter h2, .wyg h2{font-size:34px}
+.letter, .shifts, .systems, .peek, .wyg, .results, .faq, .room, .vids{padding:56px 0}
+}
+@media(max-width:430px){
+.results .wrap{padding:0 18px}
+.shifts h2, .systems h2, .peek h2, .faq h2, .results h2, .vids h2, .room h2, .close h2, .letter h2, .wyg h2{font-size:30px}
+}
+.results .wrap.e-con, .results .e-con.wrap{max-width:1120px;margin:0 auto;padding-left:24px;padding-right:24px;width:100%}
+.results .stats .wrap>.e-con-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding-top:24px;padding-bottom:24px}
+.tgrid>.e-con-inner{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.results .close .wrap>.e-con-inner{display:flex;flex-direction:column;align-items:center;text-align:center}
+.results .elementor-heading-title{font-size:48px;color:#0b0f12;margin:6px 0 6px}
+@media(max-width:760px){
+.hero-grid>.e-con-inner, .tgrid>.e-con-inner, .wyg-grid>.e-con-inner, .bgrid>.e-con-inner, .sys-grid>.e-con-inner, .peek-grid>.e-con-inner, .vgrid>.e-con-inner{grid-template-columns:1fr}
+.results .stats .wrap>.e-con-inner{grid-template-columns:repeat(2,1fr)}
+.shifts .elementor-heading-title, .results .elementor-heading-title, .systems .elementor-heading-title, .peek .elementor-heading-title, .vids .elementor-heading-title, .faq .elementor-heading-title, .close .elementor-heading-title, .letter .elementor-heading-title, .wyg .elementor-heading-title{font-size:34px}
+}
+.e-con.tgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.results .stats .e-con.wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+@media(max-width:760px){
+.e-con.hero-grid, .e-con.tgrid, .e-con.wyg-grid, .e-con.bgrid, .e-con.sys-grid, .e-con.peek-grid, .e-con.vgrid{grid-template-columns:1fr}
+.results .stats .e-con.wrap{grid-template-columns:repeat(2,1fr)}
+}
+.results .peek .eyebrow{color:#00BEFF}
+.results .vids .eyebrow{color:#4fd0ff}
+.results .stats-label .eyebrow{color:#4fd0ff}
+.tmarq{overflow:hidden;position:relative}
+.tmarq .track{display:flex;gap:18px;width:max-content;animation:tscroll 70s linear infinite}
+.tmarq:hover .track{animation-play-state:paused}
+.tq{flex:none;width:400px;background:#fff;border:1px solid #e9edf1;border-radius:14px;padding:18px 22px;font-size:14.5px;color:#2f3a42;box-shadow:0 10px 30px rgba(11,15,18,.05)}
+.tq b{display:block;margin-top:10px;color:#0b0f12;font-size:12.5px}
+@media(max-width:760px){
+.tq{width:300px}
+}
+/* v10b */
+.e-con.tgrid{display:block;grid-template-columns:none}
+.tmarq{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.tmarq .track{animation-duration:120s}
+@keyframes tscroll{to{transform:translateX(-50%)}}
+
+/* THREE SPEAKER CARDS (Sept 25 2026). Tod's card was removed at Rachel's request. The grid was
+   built for four, which leaves an empty slot on desktop and a lone card on the two-up tablet row,
+   so desktop keeps the four-up card width and centres the row, and tablet centres the odd card. */
+@media(min-width:1101px){.bgrid.e-con.e-con-full{grid-template-columns:repeat(3,calc((100% - 90px)/4));justify-content:center}}
+@media(min-width:761px) and (max-width:1100px){.bgrid.e-con.e-con-full>:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc((100% - 30px)/2)}}
+
+/* GA weight, Oct 2026 (call-first sprint): GA holds 161 of 191 unsold seats and read as the lesser card next to VIP. Solid white button, lit bullets, readable tag, plus the "same stage" strip under the tiers intro. VIP keeps cyan, CEO keeps gold. Never add class "pop" to the GA card: the pop-up reads it as VIP. */
+.ga-btn .elementor-button{background:#fff;color:#04222e;border-color:#fff}
+.ga-btn .elementor-button:hover{background:#fff;color:#04222e;border-color:#fff;box-shadow:0 14px 32px rgba(255,255,255,.16)}
+.tier:not(.pop):not(.premium){border-color:rgba(255,255,255,.16)}
+.tier:not(.pop):not(.premium) .plan-tag{color:#dfe5ea}
+.tier:not(.pop):not(.premium) li::before{background:#8b97a0}
+.tiers .tier-inc{margin:-24px 0 34px;max-width:760px;padding:14px 18px;border:1px solid #222a31;border-radius:12px;background:#0e141a;color:#c4ccd2;font-size:15px;line-height:1.5}
+.tiers .tier-inc strong{color:#fff}
+
+/* ==== AIFS-TICKETS-SECTIONS-CSS v1 ==== */
+/* ====================================================================================
+   /ai-freedom-summit-tickets/ call-first page (Oct 2026). Appended to the main page's CSS.
+   New sections: .need (questions band under the hero), .ops (built for operators),
+   .req-sec (#request form section), .nx (what happens after you submit).
+   ==================================================================================== */
+/* hero eyebrow: event name + place/date, stacked on phones */
+@media(max-width:600px){.hero .eb-sep{display:none}.hero .eb-n{display:block}}
+/* hero + final microcopy under the primary button */
+.hero p.cta-micro{margin:14px 0 0;max-width:440px;color:#aeb8c0;font-size:14px;line-height:1.55}
+.close p.cta-micro{margin:16px auto 0;color:#8b97a0;font-size:14px;line-height:1.55}
+
+/* questions band: continues the hero's #070a0c foot */
+.need.e-con{background:#070a0c;padding:72px 0;border-top:1px solid rgba(255,255,255,.06)}
+.need .need-grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media(min-width:900px){.need .need-grid{grid-template-columns:.9fr 1.1fr;gap:64px;align-items:start}}
+.need .need-h{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:44px;line-height:1;letter-spacing:.5px;color:#fff;margin:0}
+.need .need-list{list-style:none;margin:0;padding:0;border-top:1px solid rgba(255,255,255,.09)}
+.need .need-list li{position:relative;padding:14px 0 14px 24px;border-bottom:1px solid rgba(255,255,255,.09);color:#dfe5ea;font-size:17px;line-height:1.45}
+.need .need-list li::before{content:"";position:absolute;left:2px;top:calc(14px + .5em);width:7px;height:7px;border-radius:50%;background:#00beff}
+.need .need-close{margin:20px 0 0;color:#4fd0ff;font-weight:600;font-size:17px;line-height:1.45}
+.need .cta-block{margin-top:28px}
+/* Site-wide Customizer CSS (wp-custom-css) appends " October 26-27, 2026. No virtual option." to
+   .elementor-element-a000007 p.sub on every page, and hides .sc-l. Neither belongs on this page. */
+.elementor-element-a000007 p.sub::after{content:none!important}
+.sc-info{display:flex;flex-direction:column;line-height:1.25;min-width:0}
+.sc-info b{font-family:'Poppins';font-weight:600;font-size:12.5px;color:#fff}
+.sc-info span{font-family:'Poppins';font-size:11.5px;color:#8b97a0}
+/* WP Rocket LazyRender re-anchors position:fixed inside content-visibility:auto (the modal bug). */
+.sticky-wrap,.sticky-wrap.e-con{content-visibility:visible!important;contain:none!important}
+
+/* problem: closing pull-quote */
+.letter p.pq{margin:28px 0 0;padding-left:20px;border-left:3px solid #00BEFF;color:#0b0f12;font-size:22px;font-weight:600;line-height:1.35}
+
+/* outcome: closing line + button */
+.aifs-outcome .oc-close{margin:28px 0 0;color:#0b0f12;font-size:19px;font-weight:600;line-height:1.4}
+.aifs-outcome .oc-cta{margin:32px 0 0;text-align:center}
+/* FOUR SPEAKER CARDS (Oct 5): Dan, Sam, Graeme, Matt fill the four-up grid again (the Sept 25 three-card rule
+   squeezed desktop to three columns). Tablet stays two-up, phone one-up. */
+@media(min-width:1101px){.bgrid.e-con.e-con-full{grid-template-columns:repeat(4,minmax(0,1fr))!important;justify-content:stretch}}
+.speakers .spk-more{margin:30px auto 0;max-width:640px;text-align:center;color:#aeb8c0;font-size:15.5px;line-height:1.6}
+.speakers .spk-more strong{color:#fff}
+/* same look as every other "Request a seat" button (Elementor .cta.lg) */
+.aifs-outcome .oc-cta .btn{font-family:'Poppins',sans-serif!important;font-weight:600;font-size:18px;line-height:1.2;padding:19px 46px;letter-spacing:normal;text-transform:none}
+@media(max-width:400px){.aifs-outcome-sec .aifs-outcome ul{grid-template-columns:1fr}}
+
+/* speakers: multi-paragraph bios, TBA card has no role line */
+.bcard .body p+p{margin-top:10px}
+.bcard .name+p{margin-top:8px}
+
+/* built for operators */
+.ops.e-con{background:#F6F9FC;padding:84px 0}
+.ops .elementor-heading-title{font-size:52px;color:#0b0f12;margin:0 0 14px;line-height:.95}
+.ops .ops-sub{margin:0 0 12px;color:#0b0f12;font-size:19px;font-weight:600;line-height:1.4}
+.ops .lead{margin:0 0 30px;max-width:720px;color:#51606a;font-size:16.5px}
+.ops .ops-qh{margin:0 0 16px;color:#0b0f12;font-size:16.5px;font-weight:600}
+.ops .ops-q{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:700px){.ops .ops-q{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.ops .ops-q{grid-template-columns:repeat(3,1fr)}}
+.ops .ops-q{gap:16px}
+.ops .ops-q li{position:relative;display:flex;align-items:center;min-height:92px;box-sizing:border-box;background:#fff;border:1px solid #e3e9ef;border-radius:16px;padding:20px 22px 20px 70px;color:#0b0f12;font-size:16.5px;font-weight:600;line-height:1.4;box-shadow:0 12px 30px rgba(11,15,18,.05);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.ops .ops-q li::before{content:"";position:absolute;left:20px;top:50%;width:34px;height:34px;margin-top:-17px;border-radius:50%;background:rgba(0,190,255,.12) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300a6e6' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 11.5a8.4 8.4 0 0 1-12.2 7.5L3 20.5l1.6-5A8.4 8.4 0 1 1 21 11.5z'/%3E%3C/svg%3E") center/17px no-repeat}
+.ops .ops-q li:hover{transform:translateY(-2px);border-color:rgba(0,190,255,.45);box-shadow:0 18px 40px rgba(11,15,18,.08)}
+@media(prefers-reduced-motion:reduce){.ops .ops-q li{transition:none}.ops .ops-q li:hover{transform:none}}
+.ops .ops-close{margin:28px 0 0;color:#0b0f12;font-size:17.5px;font-weight:600}
+
+/* testimonials: 8 cards doubled for the loop; same scroll speed as the old 14 (~49px/s), and the
+   trailing gap makes the -50% loop point land exactly on card 9 */
+.results .tmarq .track{animation-duration:68s;padding-right:18px}
+
+/* tiers: no intro paragraph any more, tagline + best-for lines, section bottom no longer hugs a countdown */
+.tiers.e-con{padding-bottom:84px}
+.tiers .tier-grid.e-con{margin-top:34px}
+/* ".tiers .lead" (written for the old intro paragraph) also hits the cards' li.lead rows and gave
+   them a 42px bottom margin; with the intro gone it only ever hits those rows */
+.tiers .tier li.lead{margin-bottom:2px;max-width:none;font-size:14.5px}
+.tier .tline{margin:6px 0 0;color:#aeb8c0;font-size:14.5px;line-height:1.5}
+.tier .tbest{margin:0 0 22px;color:#8b97a0;font-size:13.5px;line-height:1.55}
+.tier .tbest b{color:#dfe5ea;font-weight:600}
+.tier.premium .tline,.tier.premium .tbest{color:#d3cbba}
+@media(max-width:400px){.tier .cta .elementor-button{padding-left:18px;padding-right:18px}}
+/* 761-1100px keeps three cards across at ~220px each: the longer "I’m interested in VIP" label did not
+   fit a 162px button, so the cards and buttons give up some padding there (and may wrap, never clip) */
+@media(min-width:761px) and (max-width:1100px){
+  .tier.e-con{padding:24px 18px 26px}
+  .tier .cta .elementor-button{padding:15px 14px;font-size:15px;line-height:1.25;white-space:normal;text-align:center}
+}
+.tier .tname{line-height:1.05}
+
+/* #request: form section (widgets are direct children of the section) */
+.req-sec.e-con{background:#F6F9FC;padding:84px 24px;border-top:1px solid #e9edf1}
+.req-sec.e-con>.elementor-element{width:100%;max-width:680px;margin-left:auto;margin-right:auto}
+.req-sec .elementor-heading-title{font-size:52px;color:#0b0f12;margin:0 0 16px;line-height:.95;text-align:center}
+.req-sec .rs-kick{margin:0 0 12px;color:#0b0f12;font-size:19px;font-weight:600;line-height:1.45;text-align:center}
+.req-sec .rs-intro{margin:0 auto 30px;max-width:600px;color:#51606a;font-size:16.5px;line-height:1.6;text-align:center}
+.req-sec .rs-help{margin:0 auto 30px;max-width:600px;color:#0b0f12;font-size:15px;font-weight:600;line-height:1.5;text-align:center}
+/* Tier buttons sit on the bottom edge of every card, whatever the card's text length (the CEO card is
+   shorter and its button floated up). */
+.tier.e-con>.e-con-inner>.elementor-widget-button,.tier.e-con>.elementor-widget-button{margin-top:auto}
+
+/* what happens after you submit */
+.nx.e-con{background:#fff;padding:84px 0}
+.nx .elementor-heading-title{font-size:48px;color:#0b0f12;margin:0 0 34px;line-height:.95;text-align:center}
+.nx .nx-list{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:1fr;gap:28px;max-width:980px;text-align:center}
+@media(min-width:861px){.nx .nx-list{grid-template-columns:repeat(3,1fr);gap:40px}}
+.nx .nx-n{display:block;margin:0 0 8px;font-family:'Bebas Neue',sans-serif;font-size:46px;line-height:1;color:#00BEFF}
+.nx .nx-t{display:block;font-family:'Bebas Neue',sans-serif;font-size:27px;line-height:1.05;letter-spacing:.4px;color:#0b0f12}
+.nx .nx-d{display:block;margin-top:8px;color:#51606a;font-size:15.5px;line-height:1.6}
+.nx .nx-end{margin:38px 0 0;text-align:center;color:#0b0f12;font-size:19px;font-weight:600}
+.nx .cta-block{margin-top:18px}
+
+/* hotels: one-line kicker under the heading */
+.aifs-stay .st-kick{margin:0 0 10px;color:#0b0f12;font-size:18px;font-weight:600;line-height:1.45}
+.aifs-stay-sec .aifs-stay .st-lead{max-width:700px}
+
+/* FAQ answers are several short paragraphs now */
+.faq-acc .elementor-tab-content p+p{margin-top:10px}
+
+/* final section */
+.close p strong{color:#fff;font-weight:600}
+.close p.close-facts{margin:22px auto;color:#fff;font-weight:600;line-height:1.5}
+
+@media(max-width:760px){
+  .need.e-con{padding:56px 0}
+  .need .need-h{font-size:34px}
+  .need .need-list li{font-size:16px}
+  .ops .elementor-heading-title,.req-sec .elementor-heading-title,.nx .elementor-heading-title{font-size:34px}
+  .ops.e-con,.nx.e-con{padding:56px 0}
+  .req-sec.e-con{padding:56px 18px}
+  .letter p.pq{font-size:19px}
+}
+
+/* ==== AIFS-TICKETS-ASSEMBLY-CSS v1 ==== */
+/* the hero seat bar stays hidden until /api/seats returns a real number (its own intent) */
+.aifs-seats[hidden]{display:none!important}/* End custom CSS */

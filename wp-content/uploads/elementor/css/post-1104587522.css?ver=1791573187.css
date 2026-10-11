@@ -1,0 +1,545 @@
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-0f45cc8{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-3b34f6b{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-a475103{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-3715b64{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-e801b87{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-8f069be{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-522a0e2{--display:flex;}.elementor-1104587522 .elementor-element.elementor-element-13f4c37{--grid-template-columns:repeat(0, auto);--grid-column-gap:5px;--grid-row-gap:0px;}.elementor-1104587522 .elementor-element.elementor-element-13f4c37 .elementor-widget-container{text-align:center;}.elementor-1104587522 .elementor-element.elementor-element-abb8b3d{--display:flex;}.elementor-theme-builder-content-area{height:400px;}.elementor-location-header:before, .elementor-location-footer:before{content:"";display:table;clear:both;}@media(max-width:767px){.elementor-1104587522 .elementor-element.elementor-element-13f4c37{--icon-size:24px;}}/* Start custom CSS for social-icons, class: .elementor-element-13f4c37 */@media (max-width: 767px) {
+  .elementor-1104587522 .elementor-element.elementor-element-13f4c37.elementor-widget-social-icons.elementor-widget {
+    width: 100% !important;
+    max-width: 360px;
+  }
+
+  .elementor-1104587522 .elementor-element.elementor-element-13f4c37.elementor-widget-social-icons.elementor-widget .elementor-social-icons-wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(8, minmax(0, 1fr)) !important;
+    width: 100% !important;
+    gap: 0 !important;
+    justify-content: stretch !important;
+    align-items: center;
+  }
+
+  .elementor-1104587522 .elementor-element.elementor-element-13f4c37.elementor-widget-social-icons.elementor-widget .elementor-grid-item {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .elementor-1104587522 .elementor-element.elementor-element-13f4c37.elementor-widget-social-icons.elementor-widget .elementor-social-icon {
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    font-size: 17px !important;
+  }
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-297d8d8 */.elementor-1104587522 .elementor-element.elementor-element-297d8d8 {
+  --dm-blue: #22c8ff;
+  --dm-blue-deep: #00a6e6;
+  --dm-text: #cdd2d8;
+  --dm-muted: #7f8792;
+  width: 100% !important;
+  max-width: none !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(440px, .9fr);
+  grid-template-areas:
+    "brand form"
+    "directory directory"
+    "legal legal";
+  column-gap: 48px;
+  row-gap: 0;
+  padding: 30px max(28px, calc((100vw - 1440px) / 2)) 18px;
+  background: #000000 !important;
+  color: var(--dm-text);
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* Brand */
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-0f45cc8 {
+  grid-area: brand;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 18px;
+  min-width: 0;
+  padding: 0 0 24px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7f50c8f {
+  order: -1;
+  flex: 0 0 106px;
+  width: 106px;
+  max-width: 106px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7f50c8f img {
+  display: block;
+  width: 106px;
+  height: auto;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-3b34f6b {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 5px;
+  min-width: 0;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7287021,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-ffc4508 {
+  margin: 0 !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7287021 .elementor-heading-title {
+  margin: 0;
+  color: #ffffff;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: .015em;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-ffc4508,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-ffc4508 p {
+  margin: 0 !important;
+  color: var(--dm-blue);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+/* Keep only the proven subscription runtime from the former HTML footer. */
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-f59f4a4 {
+  grid-area: form;
+  align-self: center;
+  min-width: 0;
+  padding: 0 0 24px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 > .elementor-widget-container,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-footer-frame,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-footer-intro,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-newsletter {
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  overflow: visible !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-footer-intro {
+  display: block !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-footer-logo,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer #dm-newsletter-title,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-newsletter > p,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-footer-divider,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-footer-directory,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-legal-row {
+  display: none !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0 !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form input[type="email"] {
+  width: 100%;
+  height: 46px;
+  min-height: 46px;
+  margin: 0 !important;
+  padding: 0 17px !important;
+  color: #ffffff !important;
+  background: #000000 !important;
+  border: 1px solid #384149 !important;
+  border-radius: 999px !important;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400;
+  box-shadow: none !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form input[type="email"]:focus {
+  border-color: var(--dm-blue) !important;
+  box-shadow: 0 0 0 2px rgba(34, 200, 255, .16) !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form button {
+  height: 46px;
+  min-height: 46px;
+  margin: 0 !important;
+  padding: 0 22px !important;
+  color: #04222e !important;
+  background: linear-gradient(135deg, var(--dm-blue), var(--dm-blue-deep)) !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  font-family: Roboto, Arial, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  white-space: nowrap;
+  box-shadow: none !important;
+  cursor: pointer;
+  transition: filter .16s ease, transform .16s ease;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form button:hover,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form button:focus {
+  filter: brightness(.96);
+  transform: translateY(-1px);
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-success {
+  margin: 0 !important;
+  color: var(--dm-blue) !important;
+  font: 500 14px/1.4 Roboto, Arial, sans-serif !important;
+}
+
+/* Directory */
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-a475103 {
+  grid-area: directory;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1.25fr;
+  gap: 36px;
+  width: 100%;
+  padding: 24px 0 22px;
+  border-top: 1px solid #1f252a;
+  border-bottom: 1px solid #1f252a;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 > .e-con {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px;
+  min-width: 0;
+  padding: 0 !important;
+  background: transparent !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-heading,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor {
+  margin: 0 !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-heading-title {
+  margin: 0 0 4px;
+  color: #ffffff;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor p {
+  color: var(--dm-text);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor p {
+  margin: 0 0 8px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor p:last-child {
+  margin-bottom: 0;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 a {
+  color: var(--dm-text);
+  text-decoration: none;
+  transition: color .16s ease;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 a:hover,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 a:focus {
+  color: var(--dm-blue);
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-social-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 32px);
+  gap: 10px 14px;
+  justify-content: start;
+  margin: 0 0 11px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-social-grid a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-social-grid a:hover,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-social-grid a:focus {
+  color: var(--dm-blue);
+  transform: translateY(-1px);
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-socials p {
+  margin: 0 !important;
+  color: var(--dm-text);
+  font-size: 14px;
+  font-weight: 400;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-socials strong {
+  color: var(--dm-blue);
+  font-weight: 600;
+}
+
+/* Legal */
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-abb8b3d {
+  grid-area: legal;
+  display: block !important;
+  width: 100%;
+  padding: 16px 0 0;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-abb8b3d .elementor-widget-text-editor {
+  margin: 0 !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  color: var(--dm-muted);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy > span:last-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy a {
+  color: var(--dm-muted);
+  text-decoration: none;
+  transition: color .16s ease;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy a:hover,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy a:focus {
+  color: var(--dm-blue);
+}
+
+@media (max-width: 991px) {
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "brand"
+      "form"
+      "directory"
+      "legal";
+    padding: 26px 24px 16px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-0f45cc8 {
+    padding-bottom: 18px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-f59f4a4 {
+    padding-bottom: 24px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-a475103 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 {
+    padding: 22px 16px 14px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-0f45cc8 {
+    gap: 14px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7f50c8f,
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7f50c8f img {
+    width: 84px;
+    max-width: 84px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7f50c8f {
+    flex-basis: 84px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-7287021 .elementor-heading-title {
+    font-size: 17px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-ffc4508,
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-ffc4508 p {
+    font-size: 13px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form {
+    grid-template-columns: 1fr;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form button {
+    width: 100%;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-a475103 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 22px 0 20px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 > .e-con {
+    gap: 6px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 11.5px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy > span:last-child {
+    gap: 9px;
+  }
+}
+
+
+/* Boxed Elementor containers place children inside .e-con-inner. */
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 {
+  display: flex !important;
+  padding: 0 !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner {
+  width: 100% !important;
+  max-width: none !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(440px, .9fr);
+  grid-template-areas:
+    "brand form"
+    "directory directory"
+    "legal legal";
+  column-gap: 48px;
+  row-gap: 0;
+  padding: 30px max(28px, calc((100vw - 1440px) / 2)) 18px;
+}
+
+@media (max-width: 991px) {
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "brand"
+      "form"
+      "directory"
+      "legal";
+    padding: 26px 24px 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner {
+    padding: 22px 16px 14px;
+  }
+}
+
+
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-global-footer .dm-newsletter {
+  display: block !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form {
+  justify-self: stretch !important;
+  align-self: center !important;
+  max-width: none !important;
+}
+
+
+/* Native Elementor social icons */
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 {
+  order: -1;
+  margin: 0 !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icons-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4, 32px) !important;
+  gap: 10px 14px !important;
+  justify-content: start !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-grid-item {
+  width: 32px;
+  height: 32px;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 32px !important;
+  height: 32px !important;
+  padding: 0 !important;
+  color: #ffffff !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  font-size: 20px !important;
+  transition: color .16s ease, transform .16s ease;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icon:hover,
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icon:focus {
+  color: var(--dm-blue) !important;
+  transform: translateY(-1px);
+}
+
+
+@media (max-width: 767px) {
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner {
+    padding-top: 18px;
+    padding-bottom: 12px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-0f45cc8 {
+    padding-bottom: 14px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-f59f4a4 {
+    padding-bottom: 18px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form {
+    gap: 8px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form input[type="email"],
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-f59f4a4 #dm-subscribe-form button {
+    height: 44px;
+    min-height: 44px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-a475103 {
+    gap: 14px;
+    padding: 18px 0 16px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 > .e-con {
+    gap: 4px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-heading-title {
+    margin-bottom: 2px;
+    font-size: 13px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor,
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor p {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-a475103 .elementor-widget-text-editor p {
+    margin-bottom: 5px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icons-wrapper {
+    gap: 8px 12px !important;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-grid-item,
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-13f4c37 .elementor-social-icon {
+    font-size: 18px !important;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-abb8b3d {
+    padding-top: 12px;
+  }
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-native-legal-copy {
+    gap: 6px;
+    font-size: 11px;
+  }
+}
+
+
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 > .e-con-inner > .elementor-element-0f45cc8 {
+  flex-wrap: nowrap !important;
+}
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .elementor-element-3b34f6b {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0;
+}
+
+
+.elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-legal-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 767px) {
+  .elementor-1104587522 .elementor-element.elementor-element-297d8d8 .dm-legal-links {
+    gap: 9px;
+  }
+}/* End custom CSS */
